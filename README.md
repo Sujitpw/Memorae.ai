@@ -13,8 +13,11 @@ You can view the project live or run it locally by opening `index.html` in your 
 
 ## Installation / Usage
 
-1. **Clone the repository**: git clone https://github.com/Sujitpw
+1. **Clone the repository**:
+ git clone https://github.com/Sujitpw
+
 2.Navigate to project folder:
+
 3.Open index.html in a browser:
 
 **Technologies Used**
