@@ -29,13 +29,13 @@ You can view the project live or run it locally by opening `index.html` in your 
    ## Project Structure
    memorae/
 │
-├─ index.html       # Main HTML file
-├─ style.css        # Stylesheet
-├─ script.js        # JavaScript file
-├─ poster.png       # Hero poster image
-└─ README.md        # Project documentation
+├─ index.html       
+├─ style.css       
+├─ script.js        
+├─ poster.png       
+└─ README.md        
 ## Author
-Sujit Kumar
-Portfolio: [https://www.sujitportfolio.work/]
-GitHub: https://github.com/Sujitpw
+* Sujit Kumar
+* Portfolio: [https://www.sujitportfolio.work/]
+* GitHub: https://github.com/Sujitpw
 
