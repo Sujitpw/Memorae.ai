@@ -1,4 +1,4 @@
-# Memorae — AI Memory Assistant 
+# Memorae.AI Memory Assistant 
 Memorae is a sleek, modern web-based AI meeting assistant that helps teams **remember more and miss less**. It provides automatic meeting summaries, action item tracking, and context-aware memory — all in a single beautiful dashboard.
 ## Features
 - **AI Meeting Assistant**: Hero section with animated poster.
