@@ -1,4 +1,4 @@
-# Memorae.AI Memory Assistant 
+# Memorae.ai Memory Assistant 
 Memorae is a sleek, modern web-based AI meeting assistant that helps teams **remember more and miss less**. It provides automatic meeting summaries, action item tracking, and context-aware memory — all in a single beautiful dashboard.
 ## Features
 - **AI Meeting Assistant**: Hero section with animated poster.
@@ -7,10 +7,10 @@ Memorae is a sleek, modern web-based AI meeting assistant that helps teams **rem
 - **Integrations**: Zoom, Google Meet, Slack (mocked in frontend).
 - **Responsive Design**: Works on desktop and mobile.
 - **Pricing Section**: Clean layout for Starter, Pro, and Enterprise plans.
-- **Contact Form**: Demo form (client-side only).
+- 
 ## Demo
 
-You can view the project live (if hosted) or run it locally by opening `index.html` in your browser.
+You can view the project live or run it locally by opening `index.html` in your browser.
 
 ## Installation / Usage
 
