@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Memorae — AI Memory Assistant (Dark Premium)</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#">Memorae<span class="accent">.</span><span>ai</span></a>
+
+      <nav id="mainNav" class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <button class="btn btn-primary">Get Started</button>
+      </nav>
+
+      <button id="hambtn" class="hambtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    
+    
+    <div class="hero-left" data-aos="fade-right">
+      <div class="kicker">AI Meeting Assistant</div>
+      <h1>Remember more. Miss less.</h1>
+      <p class="lead">Automatic meeting summaries, action items, and context-aware memory — all in a single beautiful dashboard.</p>
+
+      <div class="hero-ctas">
+        <button class="btn btn-primary">Start Free</button>
+        <a class="btn btn-ghost" href="#pricing">See Pricing</a>
+      </div>
+
+      <ul class="trust" aria-hidden="true">
+        <li>Trusted by teams</li>
+        <li>99% accuracy (transcription)</li>
+        <li>Integrates with Zoom, Meet, Slack</li>
+      </ul>
+    </div>
+
+    
+    <div class="hero-right" data-aos="fade-left">
+      
+      <div class="hero-poster glass animate-scale float parallax-hover">
+        <img src="poster.png" alt="Poster" />
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <h2>Powerful features, designed for teams</h2>
+        <p class="muted">From live transcription to action extraction and integrations — ship decisions faster.</p>
+      </div>
+
+      <div class="cards" data-aos="fade-up" data-aos-delay="100">
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/></svg>
+          <h3>AI Summaries</h3>
+          <p>Readable highlights and TL;DR from meeting transcripts — ready to share.</p>
+        </article>
+
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          <h3>Action Items</h3>
+          <p>Auto-detected tasks with owner, due date and Slack notifications.</p>
+        </article>
+
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+          <h3>Knowledge Memory</h3>
+          <p>Contextual memory that links topics, people and decisions across meetings.</p>
+        </article>
+
+        <article class="card">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16 5.5 20 7.5 13 2 9h7z"/></svg>
+          <h3>Integrations</h3>
+          <p>Connect Zoom, Google Meet, Slack, Notion, and more via simple setup.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DASHBOARD PREVIEW -->
+  <section id="dashboard" class="section alt">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <h2>Beautiful, actionable dashboard</h2>
+        <p class="muted">A unified view of meeting health, action status and important notes.</p>
+      </div>
+
+      <div class="dashboard-preview" data-aos="zoom-in">
+        
+        <!-- LEFT LIST -->
+        <div class="preview-left">
+          <div class="meeting-row active">
+            <div class="m-title">All Hands — Q2</div>
+            <div class="m-meta">41m • 12 action items</div>
+          </div>
+
+          <div class="meeting-row">
+            <div class="m-title">Client Sync — Apollo</div>
+            <div class="m-meta">22m • 4 action items</div>
+          </div>
+
+          <div class="meeting-row">
+            <div class="m-title">Design Review</div>
+            <div class="m-meta">18m • 2 action items</div>
+          </div>
+        </div>
+
+        <!-- RIGHT DETAIL -->
+        <div class="preview-right">
+          <div class="preview-header">
+            <h3>Sprint Planning — Apr 27</h3>
+            <div class="pill">In progress</div>
+          </div>
+
+          <div class="preview-content">
+            <h4>Top highlights</h4>
+            <ul>
+              <li>Finalize API ownership — @Sujit</li>
+              <li>Drop legacy endpoint — schedule migration</li>
+              <li>Set demo for stakeholders</li>
+            </ul>
+
+            <h4>Action items</h4>
+            <ol>
+              <li>Assign API owner (Sujit) — <span class="tag small">Open</span></li>
+              <li>Design migration plan — <span class="tag small">Open</span></li>
+            </ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <h2>Simple pricing for teams of any size</h2>
+        <p class="muted">Start free — upgrade as your team grows.</p>
+      </div>
+
+      <div class="pricing-grid" data-aos="fade-up" data-aos-delay="100">
+        
+        <article class="plan">
+          <div class="plan-head">
+            <div class="plan-title">Starter</div>
+            <div class="plan-price"><span class="currency">₹</span>0<span class="period">/mo</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>Up to 5 meetings / mo</li>
+            <li>Basic transcripts</li>
+            <li>Email support</li>
+          </ul>
+          <button class="btn btn-outline">Get Started</button>
+        </article>
+
+        <article class="plan popular">
+          <div class="badge">Popular</div>
+          <div class="plan-head">
+            <div class="plan-title">Pro</div>
+            <div class="plan-price"><span class="currency">₹</span>499<span class="period">/mo</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>Unlimited meetings</li>
+            <li>AI summaries & action extraction</li>
+            <li>Integrations + Priority support</li>
+          </ul>
+          <button class="btn btn-primary">Start Free Trial</button>
+        </article>
+
+        <article class="plan">
+          <div class="plan-head">
+            <div class="plan-title">Enterprise</div>
+            <div class="plan-price">Custom</div>
+          </div>
+          <ul class="plan-features">
+            <li>SAML & SSO</li>
+            <li>Dedicated onboarding</li>
+            <li>SLAs + Annual billing</li>
+          </ul>
+          <button class="btn btn-outline">Contact Sales</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <h2>Get in touch</h2>
+        <p class="muted">Questions or need a demo? Send a message and we'll reply within 24 hours.</p>
+      </div>
+
+      <form class="contact-form" data-aos="fade-up">
+        <div class="row">
+          <input required name="name" placeholder="Your name" />
+          <input required name="email" type="email" placeholder="Email address" />
+        </div>
+        <input name="company" placeholder="Company (optional)" />
+        <textarea name="message" required placeholder="How can we help?"></textarea>
+
+        <div class="form-cta">
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <button class="btn btn-ghost" type="button">Request demo</button>
+        </div>
+
+        <p class="muted small">This demo form is client-side only for the hackathon — integrate with a backend for production.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-lg">Memorae<span class="accent">.</span><span>ai</span></div>
+        <p class="muted">AI memory & meeting assistant — built for teams who move fast.</p>
+      </div>
+
+      <div class="footer-links">
+  <div>
+    <h4>Product</h4>
+    <a href="#contact">Contact</a>
+    <a href="#dashboard">Dashboard</a>
+  </div>
+  <div>
+    <h4>Company</h4>
+    <a href="#pricing">Pricing</a>
+    <a href="#features">Features</a>
+  </div>
+</div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
