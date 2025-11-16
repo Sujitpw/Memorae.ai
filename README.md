@@ -9,7 +9,7 @@ Memorae is a sleek, modern web-based AI meeting assistant that helps teams **rem
 - **Pricing Section**: Clean layout for Starter, Pro, and Enterprise plans.
 ## Demo
 
-You can view the project live at: [Memorae live](memorae-ai-opal.vercel.app)  
+You can view the project live at: (memorae-ai-opal.vercel.app)  
 
 Or run it locally by opening `index.html` in your browser.
 
